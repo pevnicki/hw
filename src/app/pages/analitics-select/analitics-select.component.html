@@ -1,0 +1,13 @@
+<div class="select-container">
+  <img class="select-icon" src="assets/icons/Analytics_icon.svg" alt="">
+  <mat-form-field  class="select-form-filed" appearance="none">
+    <mat-label>Analytics</mat-label>
+    <mat-select [formControl]="panelColor" disableOptionCentering
+                 panelClass="example-panel-{{panelColor.value}} position">
+      <mat-option value="red">Red</mat-option>
+      <mat-option value="green">Green</mat-option>
+      <mat-option value="blue">Blue</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+

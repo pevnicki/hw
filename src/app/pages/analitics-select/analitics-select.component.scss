@@ -1,0 +1,44 @@
+.select-container{
+  background-color: #0be6e6;
+  width: 25.3125rem;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.select-icon{
+  vertical-align: center;
+  width: 2.9375rem;
+  height: 2.9375rem;
+  display: inline;
+
+}
+
+.select-form-filed{
+  color: #030000;
+  background-color: #0be6e6;
+  width: 20rem;
+  border: #adacac;
+  border-radius: 10px;
+  paddmaring: 2px;
+}
+
+.example-panel-red.mat-select-panel {
+  background: rgba(255, 0, 0, 0.5);
+  width: 25.3125rem;
+
+}
+
+.example-panel-green.mat-select-panel {
+  background: rgba(0, 255, 0, 0.5);
+  width: 25.3125rem;
+}
+
+.example-panel-blue.mat-select-panel {
+  background: rgba(0, 0, 255, 0.5);
+  width: 25.3125rem;
+}
+
+.position{
+  margin-top: 44px !important;
+}

@@ -1,0 +1,38 @@
+.card{
+  width: 100%;
+  height: 10.438rem;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  box-shadow: none;
+  border: solid 4px #0be6e6;
+  display: flex;
+}
+.card-content{
+  width: 17rem;
+  height: 7rem;
+  border-right: 1px solid #adacac;
+
+  p:nth-child(1){
+    color: #adacac;
+  }
+  p:nth-child(2){
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 53px;
+    span{
+      font-weight: lighter;
+      font-size: 1rem;
+    }
+  }
+  p:nth-child(3){
+    color: #adacac;
+    span{
+      font-weight: bold;
+      color: #030000;
+    }
+  }
+}
+
